@@ -1,5 +1,6 @@
 # example
-require 'test/unit' 
+require 'test/unit'
+require './dollar'
 
 class DollarTests < Test::Unit::TestCase
   def test_multiplication()
