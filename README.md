@@ -11,3 +11,7 @@ test driven development by example - kentback
 ### TODO
 
     $5 * 2 = $10 만들기 
+
+#### 참고 
+
+<https://soomtopia.github.io/2019/05/12/tdd-chap01/>
