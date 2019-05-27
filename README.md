@@ -15,3 +15,13 @@ test driven development by example - kentback
 #### 참고 
 
 <https://soomtopia.github.io/2019/05/12/tdd-chap01/>
+
+## chap 02
+
+### TODO
+
+    연산 후 $ 가 바뀌지 않게 만들기 
+
+#### 참고 
+
+<https://soomtopia.github.io/2019/05/13/tdd-chap02/>
