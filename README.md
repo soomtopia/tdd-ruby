@@ -25,3 +25,11 @@ test driven development by example - kentback
 #### 참고 
 
 <https://soomtopia.github.io/2019/05/13/tdd-chap02/>
+
+## chap 03
+
+### TODO
+
+     값 객체를 구현해, 처음 입력된 값이 변하지 않게 하기 
+    
+<https://soomtopia.github.io/2019/05/13/tdd-chap03/>
