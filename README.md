@@ -33,3 +33,12 @@ test driven development by example - kentback
      값 객체를 구현해, 처음 입력된 값이 변하지 않게 하기 
     
 <https://soomtopia.github.io/2019/05/13/tdd-chap03/>
+
+
+## chap 04
+
+### TODO
+
+     amount 인스턴스 변수 private 로 만들기
+    
+<https://soomtopia.github.io/2019/05/13/tdd-chap04/>
