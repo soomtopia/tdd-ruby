@@ -5,10 +5,8 @@ require './dollar'
 class DollarTests < Test::Unit::TestCase
   def test_multiplication()
     five = Dollar.new(5)
-    product = five.times(2)
-    assert_equal(Dollar.new(10).amount, product.amount)
-    product = five.times(3)
-    assert_equal(Dollar.new(15).amount, product.amount)
+    assert_equal(Dollar.new(10).amount, five.times(2).amount)
+    assert_equal(Dollar.new(15).amount, five.times(3).amount)
   end
 
   def test_equality
