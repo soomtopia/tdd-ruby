@@ -1,7 +1,7 @@
 # example
 require 'test/unit'
 require './dollar'
-
+require './franc'
 class DollarTests < Test::Unit::TestCase
   def test_multiplication
     five = Dollar.new(5)
