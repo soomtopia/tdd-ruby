@@ -9,6 +9,7 @@ class Franc < Money
   end
 
   def ==(other)
-    amount == other.amount
+    money = other
+    amount == money.amount
   end
 end
