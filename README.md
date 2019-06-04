@@ -50,3 +50,10 @@ test driven development by example - kentback
      다른 화폐 계산하기. Dollar 객체와 비슷하게 작동하는 FRAN 객체 생성.
 
 <https://soomtopia.github.io/2019/05/14/tdd-chap05/>
+
+
+## chap06
+
+### TODO
+
+     공통 equals 메서드 갖게 하기
