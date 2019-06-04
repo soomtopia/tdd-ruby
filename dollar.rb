@@ -1,6 +1,5 @@
-class Dollar
-  attr_accessor :amount 
-
+require './money'
+class Dollar < Money
   def initialize(amount)
     @amount = amount
   end
