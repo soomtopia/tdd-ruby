@@ -57,3 +57,9 @@ test driven development by example - kentback
 ### TODO
 
      공통 equals 메서드 갖게 하기
+
+## chap07
+
+#### TODO
+
+     Dollar Franc 비교하기
