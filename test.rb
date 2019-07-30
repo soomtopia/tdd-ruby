@@ -1,10 +1,11 @@
 # example
 require 'test/unit'
 require './dollar'
+require './money'
 require './franc'
 class DollarTests < Test::Unit::TestCase
   def test_multiplication
-    five = Dollar.new(5)
+    five = Money.dollar(5)
     assert_equal(Dollar.new(10).amount, five.times(2).amount)
     assert_equal(Dollar.new(15).amount, five.times(3).amount)
   end
