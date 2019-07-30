@@ -58,8 +58,20 @@ test driven development by example - kentback
 
      공통 equals 메서드 갖게 하기
 
+<https://soomtopia.github.io/2019/05/14/tdd-chap06/>
+
 ## chap07
 
 #### TODO
 
      Dollar Franc 비교하기
+
+<https://soomtopia.github.io/2019/05/14/tdd-chap07/>
+
+## chap08
+
+#### TODO 
+
+     Dollar/Franc 중복 제거
+
+<https://soomtopia.github.io/2019/05/15/tdd-chap08/>
