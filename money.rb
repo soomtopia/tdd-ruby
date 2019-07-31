@@ -1,6 +1,6 @@
 require './dollar'
 class Money
-  attr_accessor :amount
+  attr_accessor :amount, :currency
 
   def ==(other)
     money = other

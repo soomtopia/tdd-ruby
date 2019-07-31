@@ -7,4 +7,8 @@ class Franc < Money
   def times(multiplier)
     Dollar.new(amount * multiplier)
   end
+
+  def currency
+    "CHF"
+  end
 end
