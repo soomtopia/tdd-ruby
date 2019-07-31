@@ -14,7 +14,7 @@ class DollarTests < Test::Unit::TestCase
     assert_true(Money.dollar(5) == Money.dollar(5))
     assert_false(Money.dollar(5) == Money.dollar(6))
     assert_true(Money.franc(5) == Money.franc(5))
-    assert_false(Money.franc(5) == Franc.new(6))
+    assert_false(Money.franc(5) == Money.franc(6))
     assert_false(Money.franc(5) == Money.dollar(5))
   end
 
