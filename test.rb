@@ -25,7 +25,7 @@ class DollarTests < Test::Unit::TestCase
   end
 
   def test_currency
-    assert_equal("USD", Money.dollar(1).currency)
-    assert_equal("CHF", Money.franc(1).currency)
+    assert_equal(:USD, Money.dollar(1).currency)
+    assert_equal(:CHF, Money.franc(1).currency)
   end
 end
