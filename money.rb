@@ -12,6 +12,6 @@ class Money
   end
 
   def self.franc(amount)
-    Franc.new(amount, nil)
+    Franc.new(amount, :CHF)
   end
 end
