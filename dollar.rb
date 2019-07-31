@@ -1,8 +1,7 @@
 require './money'
 class Dollar < Money  
   def initialize(amount, currency)
-    @amount = amount
-    @currency = currency
+    super
   end
 
   def times(multiplier)
