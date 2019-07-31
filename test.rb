@@ -23,4 +23,9 @@ class DollarTests < Test::Unit::TestCase
     assert_equal(Money.franc(10).amount, five.times(2).amount)
     assert_equal(Money.franc(15).amount, five.times(3).amount)
   end
+
+  def test_currency
+    assert_equals("USD", Money.dollar(1).currency)
+    assert_equals("CHF", Money.dollar(1).currency)
+  end
 end
