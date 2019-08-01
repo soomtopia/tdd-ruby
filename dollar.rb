@@ -5,6 +5,6 @@ class Dollar < Money
   end
 
   def times(multiplier)
-    Money.dollar(amount * multiplier)
+    Money.dollar(amount * multiplier, :USD)
   end
 end
