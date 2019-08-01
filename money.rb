@@ -19,4 +19,8 @@ class Money
   def self.franc(amount)
     Franc.new(amount, :CHF)
   end
+
+  def times(amount)
+    nil
+  end
 end
