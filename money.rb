@@ -8,8 +8,7 @@ class Money
   end
   
   def ==(other)
-    money = other
-    (amount == money.amount) && (self.class == money.class)
+    (amount == other.amount) && (self.class == other.class)
   end
 
   def self.dollar(amount)
