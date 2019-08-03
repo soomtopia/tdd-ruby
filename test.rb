@@ -3,6 +3,7 @@ require 'test/unit'
 require './dollar'
 require './money'
 require './franc'
+require './bank'
 class DollarTests < Test::Unit::TestCase
   def test_multiplication
     five = Money.dollar(5)
@@ -32,7 +33,7 @@ class DollarTests < Test::Unit::TestCase
     sum = five + five
     bank = Bank.new()
     reduced = bank.reduce(sum, :USD)
-    assert_equals(Money.dollar, reduced)
+    assert_equal(Money.dollar(10), reduced)
   end
 
 end
