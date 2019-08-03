@@ -28,8 +28,11 @@ class DollarTests < Test::Unit::TestCase
   end
 
   def test_simple_addition
-    sum = Money.dollar(5).puls(Money.dollar(5))
-    assert_equals(Money.dollar(10), sum)
+    five = Money.dollar(5)
+    sum = five + five
+    bank = Bank.new()
+    reduced = bank.reduce(sum, :USD)
+    assert_equals(Money.dollar, reduced)
   end
 
 end
