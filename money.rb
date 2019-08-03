@@ -23,7 +23,7 @@ class Money
     Money.new(amount * multiplier, currency)
   end
 
-  def plus(addend)
-    Money.new(amount + addend.amount, currency)
+  def +(other)
+    Money.new(amount + other.amount, currency)
   end
 end
