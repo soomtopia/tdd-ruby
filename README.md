@@ -107,3 +107,11 @@ test driven development by example - kentback
      더하기 기능 만들기
 
 <https://soomtopia.github.io/2019/05/23/tdd-chap12/>
+
+## chap
+
+#### TODO 
+
+     더하기 리팩토링
+
+<https://soomtopia.github.io/2019/05/23/tdd-chap13/>
