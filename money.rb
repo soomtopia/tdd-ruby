@@ -7,7 +7,7 @@ class Money
     @amount = amount
     @currency = currency
   end
-  
+
   def ==(other)
     (amount == other.amount) && (currency == other.currency)
   end
