@@ -1,4 +1,5 @@
 require './dollar'
+require './sum'
 class Money
   attr_accessor :amount, :currency
 
@@ -24,6 +25,6 @@ class Money
   end
 
   def +(other)
-    Money.new(amount + other.amount, currency)
+    Sum.new(self, other)
   end
 end
