@@ -108,10 +108,19 @@ test driven development by example - kentback
 
 <https://soomtopia.github.io/2019/05/23/tdd-chap12/>
 
-## chap
+## chap13
 
 #### TODO 
 
      더하기 리팩토링
 
 <https://soomtopia.github.io/2019/05/23/tdd-chap13/>
+
+
+## chap14
+
+#### TODO
+
+     2 프랑 > 달러 변환
+
+<https://soomtopia.github.io/2019/05/24/tdd-chap14/>
