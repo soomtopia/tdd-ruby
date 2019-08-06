@@ -28,8 +28,8 @@ class Money
     Sum.new(self, other)
   end
 
-  def reduce(to)
+  def reduce(bank, to)
     rate = bank.rate(currency, to)
-    Money.new(amount/rate, to)
+    Money.new(amount / rate, to)
   end
 end
